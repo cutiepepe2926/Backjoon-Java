@@ -8,11 +8,11 @@ public class Backjoon10869 {
     public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
         int A = scan.nextInt();
-        if(A<0){
+        if(A<1){
             exit(1);
         }
         int B = scan.nextInt();
-        if(B>10){
+        if(B>10001){
             exit(1);
         }
         System.out.println(A+B);
