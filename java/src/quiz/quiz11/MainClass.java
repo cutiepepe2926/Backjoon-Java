@@ -1,4 +1,4 @@
-package quiz11;
+package quiz.quiz11;
 
 public class MainClass {
     public static void main(String[] args) {

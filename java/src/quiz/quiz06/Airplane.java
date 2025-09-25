@@ -1,4 +1,4 @@
-package quiz06;
+package quiz.quiz06;
 
 public class Airplane { 
 	//부모클래스는 변경하지 않습니다.

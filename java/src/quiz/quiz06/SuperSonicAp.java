@@ -1,4 +1,4 @@
-package quiz06;
+package quiz.quiz06;
 
 public class SuperSonicAp extends Airplane {
 

@@ -1,4 +1,4 @@
-package quiz05;
+package quiz.quiz05;
 
 public class Car {
 	

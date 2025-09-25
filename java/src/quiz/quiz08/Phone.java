@@ -1,4 +1,4 @@
-package quiz08;
+package quiz.quiz08;
 
 /*
  * Phone 클래스 - Person에서 사용될 클래스 타입 멤버변수

@@ -1,4 +1,4 @@
-package quiz08;
+package quiz.quiz08;
 
 /*
  * 문제: Person 클래스를 완성하세요

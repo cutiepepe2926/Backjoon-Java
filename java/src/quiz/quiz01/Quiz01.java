@@ -1,4 +1,4 @@
-package quiz01;
+package quiz.quiz01;
 
 public class Quiz01 {
 

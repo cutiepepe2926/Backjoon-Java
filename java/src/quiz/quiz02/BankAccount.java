@@ -1,4 +1,4 @@
-package quiz02;
+package quiz.quiz02;
 
 import java.util.ArrayList;
 

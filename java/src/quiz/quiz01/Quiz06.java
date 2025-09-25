@@ -1,4 +1,4 @@
-package quiz01;
+package quiz.quiz01;
 
 import java.util.stream.Stream;
 

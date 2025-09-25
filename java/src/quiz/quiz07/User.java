@@ -1,4 +1,4 @@
-package quiz07;
+package quiz.quiz07;
 
 public class User {
     //단순히, 데이터를 저장하기 위한 용도로 클래스 사용.
