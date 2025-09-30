@@ -2,10 +2,13 @@ package day09.exception.throws_;
 
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class ThrowsEx01 {
 
     public static void main(String[] args) {
+
+
         /*
         throws키워드는 메서드나 생성자에서 예외를 떠넘기는 방식.
         throws키워드를 만나면 예외가 호출부로 넘어감!!
@@ -19,11 +22,13 @@ public class ThrowsEx01 {
         }
 
         //throws의 대표적인 예시
+
         try {
             Class.forName("$@#$%#$");
         } catch (ClassNotFoundException e) {
-
+            e.printStackTrace();
         }
+
         try {
             new FileInputStream("sdf");
         } catch (Exception e) {
