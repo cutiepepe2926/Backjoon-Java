@@ -1,4 +1,4 @@
-package quiz.quiz16;
+package quiz16;
 
 public class User {
     //회원정보를 저장하는 용도의 클래스

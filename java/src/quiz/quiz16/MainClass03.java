@@ -1,4 +1,4 @@
-package quiz.quiz16;
+package quiz16;
 
 import java.util.*;
 

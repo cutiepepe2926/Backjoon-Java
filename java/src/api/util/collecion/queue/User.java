@@ -33,7 +33,9 @@ public class User implements Comparable<User> {
     @Override
     public int compareTo(User o) {
         //return this.name.compareTo( o.getName() ); //나의 이름과 쟤의 이름을 compareTo
-        return o.getName().compareTo(name);
+        //return o.getName().compareTo(name);
+        //return Integer.compare(this.age, o.getAge());
+        return Integer.compare(o.getAge(), this.age);
     }
 
     @Override

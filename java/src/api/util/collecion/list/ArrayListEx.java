@@ -16,6 +16,7 @@ public class ArrayListEx {
         list.add("홍순자");
         list.add("신사임당");
 
+
         System.out.println(list.toString() );
 
         //2. 크기 확인
