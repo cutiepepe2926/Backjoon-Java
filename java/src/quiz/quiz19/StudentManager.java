@@ -1,4 +1,4 @@
-package quiz19;
+package quiz.quiz19;
 
 import java.util.HashMap;
 
