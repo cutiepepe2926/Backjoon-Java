@@ -7,33 +7,22 @@ public class Backjoon2869 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        long A = Integer.parseInt(st.nextToken());
-        long B = Integer.parseInt(st.nextToken());
-        long V = Integer.parseInt(st.nextToken());
 
-        long result = 0;
-        long check = 0;
+        // 올라간 높이
+        int A = Integer.parseInt(st.nextToken());
 
+        // 내려가 높이
+        int B = Integer.parseInt(st.nextToken());
 
+        // 목표 높이
+        int V = Integer.parseInt(st.nextToken());
 
-        for(int i=0; ;i++){
-            if(result>=V){
-                break;
-            }
-            else {
-                result += A;
-                check++;
-                if(result<V){
-                    result -= B;
-                    continue;
-                }
-                else {
-                    break;
-                }
-            }
+        // 걸린 날
+        int Day = (V-B)/(A-B);
+
+        if( (V - B) % (A - B) != 0 ) {
+            Day++;
         }
-        System.out.println(check);
+        System.out.println(Day);
     }
 }
-//5 = 2*day - 1*day
-//an =
