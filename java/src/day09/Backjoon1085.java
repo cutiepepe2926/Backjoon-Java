@@ -15,5 +15,7 @@ public class Backjoon1085 {
         int updown = Math.min(y,Math.abs(h-y));
         int leftright = Math.min(x,Math.abs(w-x));
         System.out.println(Math.min(leftright,updown));
+        //no problem
+
     }
 }
